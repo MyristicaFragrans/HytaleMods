@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "plants.MicroClover.name",
-    "Description": "plants.MicroClover.desc"
+    "Name": "dev.myristica.plants.MicroClover.name",
+    "Description": "dev.myristica.plants.MicroClover.desc"
   },
   "Icon": "Icons/Items/Blocks/Plants/MicroClover.png",
   "Parent": "WhiteClover",

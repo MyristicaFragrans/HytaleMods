@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "plants.Hyacinth.name",
-    "Description": "plants.Hyacinth.desc"
+    "Name": "dev.myristica.plants.Hyacinth.name",
+    "Description": "dev.myristica.plants.Hyacinth.desc"
   },
   "Categories": [
     "Blocks.Plants"

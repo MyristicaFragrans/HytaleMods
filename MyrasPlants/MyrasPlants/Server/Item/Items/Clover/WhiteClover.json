@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "plants.WhiteClover.name",
-    "Description": "plants.WhiteClover.desc"
+    "Name": "dev.myristica.plants.WhiteClover.name",
+    "Description": "dev.myristica.plants.WhiteClover.desc"
   },
   "Categories": [
     "Blocks.Plants"
