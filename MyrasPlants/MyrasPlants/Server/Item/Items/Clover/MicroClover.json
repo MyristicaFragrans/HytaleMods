@@ -5,6 +5,24 @@
   },
   "Icon": "Icons/Items/Blocks/Plants/MicroClover.png",
   "Parent": "WhiteClover",
+  "Recipe": {
+    "TimeSeconds": 0,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Farmingbench",
+        "Categories": [
+          "Decorative"
+        ]
+      }
+    ]
+  },
   "BlockType": {
     "CustomModelTexture": [
       {
