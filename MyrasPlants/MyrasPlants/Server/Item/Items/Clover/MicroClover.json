@@ -1,0 +1,27 @@
+{
+  "TranslationProperties": {
+    "Name": "plants.MicroClover.name",
+    "Description": "plants.MicroClover.desc"
+  },
+  "Icon": "Icons/Items/Blocks/Plants/MicroClover.png",
+  "Parent": "WhiteClover",
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Foliage/Plants/MicroClover.png",
+        "Weight": 1
+      }
+    ],
+    "Gathering": {
+      "Tools": [
+        {
+          "Type": "Shears"
+        }
+      ],
+      "Soft": {
+        "DropList": "MicroClover"
+      },
+      "UseDefaultDropWhenPlaced": true
+    }
+  }
+}

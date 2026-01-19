@@ -1,0 +1,22 @@
+{
+    "Group": "dev.myristica",
+    "Name": "Myra's Plants",
+    "Version": "1.0",
+    "Description": "Adds more plants",
+    "Authors": [
+        {
+            "Name": "Myristica",
+            "Url": "https://myristica.dev"
+        }
+    ],
+    "Website": "https://www.curseforge.com/hytale/mods/myras-plants",
+    "ServerVersion": "*",
+    "Dependencies": {
+
+    },
+    "OptionalDependencies": {
+
+    },
+    "DisabledByDefault": false,
+    "IncludesAssetPack": true
+}

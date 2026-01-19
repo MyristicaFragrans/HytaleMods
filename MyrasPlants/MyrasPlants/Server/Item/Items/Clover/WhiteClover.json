@@ -1,0 +1,80 @@
+{
+  "TranslationProperties": {
+    "Name": "plants.WhiteClover.name",
+    "Description": "plants.WhiteClover.desc"
+  },
+  "Categories": [
+    "Blocks.Plants"
+  ],
+  "Interactions": {
+    "Primary": "Block_Primary",
+    "Secondary": "Block_Secondary"
+  },
+  "Icon": "Icons/Items/Blocks/Plants/WhiteClover.png",
+  "Recipe": {
+    "TimeSeconds": 0,
+    "Input": [
+      {
+        "ItemId": "Ingredient_Life_Essence",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Farmingbench",
+        "Categories": [
+          "Decorative"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "DrawType": "Model",
+    "CustomModel": "Blocks/Foliage/Plants/Clover.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Foliage/Plants/WhiteClover.png",
+        "Weight": 1
+      }
+    ],
+    "Opacity": "Transparent",
+    "ParticleColor": "#60964a",
+    "BlockParticleSetId": "Leaves",
+    "BiomeTint": 10,
+    "HitboxType": "Plant_Small",
+    "Gathering": {
+      "Tools": [
+        {
+          "Type": "Shears"
+        }
+      ],
+      "Soft": {
+        "DropList": "WhiteClover"
+      },
+      "UseDefaultDropWhenPlaced": true
+    },
+    "Support": {
+      "Down": [
+        {
+          "TagId": "Type=Soil"
+        }
+      ]
+    },
+    "Effect": [
+      "WindFractal"
+    ],
+    "RandomRotation": "YawStep90",
+    "BlockSoundSetId": "Plant"
+  },
+  "PlayerAnimationsId": "Item",
+  "Tags": {
+    "Type": [
+      "Plant"
+    ],
+    "Family": [
+      "Grass"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Foliage"
+}
